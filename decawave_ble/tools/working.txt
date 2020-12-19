@@ -1,0 +1,91 @@
+Data for 5 Decawave devices
+
+Device name: DW24A1
+Node ID: DECA87EFA16217AB
+Device type: Anchor
+Initiator: False
+UWB mode: Active
+Network ID: D90B
+Moving update rate (ms): 100
+Stationary update rate (ms): 10000
+Location engine: True
+Location data mode name: Position and distances
+Location data content name: Position only
+Position data:
+  X: -179 mm
+  Y: -359 mm
+  Z: -239 mm
+  Quality: 100
+
+Device name: DW014F
+Node ID: DECAEC824E404503
+Device type: Anchor
+Initiator: False
+UWB mode: Active
+Network ID: D90B
+Moving update rate (ms): 100
+Stationary update rate (ms): 10000
+Location engine: True
+Location data mode name: Position and distances
+Location data content name: Position only
+Position data:
+  X: 230 mm
+  Y: -359 mm
+  Z: -239 mm
+  Quality: 100
+
+Device name: DW25CF
+Node ID: DECAC056A1B0D6AC
+Device type: Tag
+Initiator: False
+UWB mode: Active
+Network ID: D90B
+Moving update rate (ms): 100
+Stationary update rate (ms): 100
+Location engine: True
+Location data mode name: Position and distances
+Location data content name: Position and distances
+Position data:
+  X: 1217 mm
+  Y: -1081 mm
+  Z: 165 mm
+  Quality: 95
+Distance data:
+  4503: 1278 mm (Q=100)
+  17AB: 1616 mm (Q=100)
+  0411: 1685 mm (Q=100)
+  C11E: 1925 mm (Q=100)
+
+Device name: DW2AF3
+Node ID: DECAFDE247E30411
+Device type: Anchor
+Initiator: True
+UWB mode: Active
+Network ID: D90B
+Moving update rate (ms): 100
+Stationary update rate (ms): 10000
+Location engine: True
+Location data mode name: Position and distances
+Location data content name: Position only
+Position data:
+  X: 0 mm
+  Y: 0 mm
+  Z: 0 mm
+  Quality: 100
+
+Device name: DW29F1
+Node ID: DECA776F86E1C11E
+Device type: Anchor
+Initiator: False
+UWB mode: Active
+Network ID: D90B
+Moving update rate (ms): 100
+Stationary update rate (ms): 100
+Location engine: True
+Location data mode name: Position and distances
+Location data content name: Position only
+Position data:
+  X: 0 mm
+  Y: 340 mm
+  Z: 450 mm
+  Quality: 100

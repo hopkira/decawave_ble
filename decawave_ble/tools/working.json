@@ -1,0 +1,428 @@
+{
+  "DW24A1": {
+    "device_name": "DW24A1",
+    "scan_data": {
+      "device_name": "DW24A1",
+      "mac_address": "c0:dc:6d:02:98:86",
+      "address_type": "public",
+      "interface": 0,
+      "rssi": -69,
+      "connectable": true,
+      "advertising_data": [
+        {
+          "type_code": 1,
+          "description": "Flags",
+          "value": "06"
+        },
+        {
+          "type_code": 33,
+          "description": "128b Service Data",
+          "value": "e72913c2a1ba119c1f4c46c9d9210c6882ea"
+        },
+        {
+          "type_code": 8,
+          "description": "Short Local Name",
+          "value": "DW24A1"
+        }
+      ]
+    },
+    "operation_mode_data": {
+      "device_type": 1,
+      "uwb_mode": 2,
+      "fw_version": 1,
+      "accelerometer_enable": true,
+      "led_enable": true,
+      "fw_update_enable": false,
+      "reserved_01": true,
+      "initiator": false,
+      "low_power_mode": false,
+      "location_engine": true,
+      "reserved_02": 0,
+      "device_type_name": "Anchor",
+      "uwb_mode_name": "Active",
+      "fw_version_name": "2"
+    },
+    "device_info_data": {
+      "node_id": 16053793284990048171,
+      "hw_version": 3737780266,
+      "fw1_version": 16973824,
+      "fw2_version": 16973825,
+      "fw1_checksum": 1025622101,
+      "fw2_checksum": 3588834073,
+      "bridge": false,
+      "unknown": 0
+    },
+    "network_id": 55563,
+    "location_data_mode_data": {
+      "location_data_mode": 2,
+      "location_data_mode_name": "Position and distances"
+    },
+    "location_data": {
+      "location_data_content": 0,
+      "location_data_content_name": "Position only",
+      "position_data": {
+        "x_position": -179,
+        "y_position": -359,
+        "z_position": -239,
+        "quality": 100
+      },
+      "distance_data": null
+    },
+    "proxy_positions_data": null,
+    "anchor_list_data": [
+      49438,
+      1041,
+      17667,
+      6059
+    ],
+    "update_rate_data": {
+      "moving_update_rate": 100,
+      "stationary_update_rate": 10000
+    }
+  },
+  "DW014F": {
+    "device_name": "DW014F",
+    "scan_data": {
+      "device_name": "DW014F",
+      "mac_address": "d7:40:98:38:e7:7a",
+      "address_type": "public",
+      "interface": 0,
+      "rssi": -59,
+      "connectable": true,
+      "advertising_data": [
+        {
+          "type_code": 1,
+          "description": "Flags",
+          "value": "06"
+        },
+        {
+          "type_code": 33,
+          "description": "128b Service Data",
+          "value": "e72913c2a1ba119c1f4c46c9d9210c6882a9"
+        },
+        {
+          "type_code": 8,
+          "description": "Short Local Name",
+          "value": "DW014F"
+        }
+      ]
+    },
+    "operation_mode_data": {
+      "device_type": 1,
+      "uwb_mode": 2,
+      "fw_version": 1,
+      "accelerometer_enable": true,
+      "led_enable": true,
+      "fw_update_enable": false,
+      "reserved_01": true,
+      "initiator": false,
+      "low_power_mode": false,
+      "location_engine": true,
+      "reserved_02": 0,
+      "device_type_name": "Anchor",
+      "uwb_mode_name": "Active",
+      "fw_version_name": "2"
+    },
+    "device_info_data": {
+      "node_id": 16053903866118292739,
+      "hw_version": 3737780266,
+      "fw1_version": 16973824,
+      "fw2_version": 16973825,
+      "fw1_checksum": 1025622101,
+      "fw2_checksum": 3588834073,
+      "bridge": false,
+      "unknown": 0
+    },
+    "network_id": 55563,
+    "location_data_mode_data": {
+      "location_data_mode": 2,
+      "location_data_mode_name": "Position and distances"
+    },
+    "location_data": {
+      "location_data_content": 0,
+      "location_data_content_name": "Position only",
+      "position_data": {
+        "x_position": 230,
+        "y_position": -359,
+        "z_position": -239,
+        "quality": 100
+      },
+      "distance_data": null
+    },
+    "proxy_positions_data": null,
+    "anchor_list_data": [
+      1041,
+      17667,
+      49438,
+      6059
+    ],
+    "update_rate_data": {
+      "moving_update_rate": 100,
+      "stationary_update_rate": 10000
+    }
+  },
+  "DW25CF": {
+    "device_name": "DW25CF",
+    "scan_data": {
+      "device_name": "DW25CF",
+      "mac_address": "ea:3d:57:32:55:8d",
+      "address_type": "public",
+      "interface": 0,
+      "rssi": -60,
+      "connectable": true,
+      "advertising_data": [
+        {
+          "type_code": 1,
+          "description": "Flags",
+          "value": "06"
+        },
+        {
+          "type_code": 33,
+          "description": "128b Service Data",
+          "value": "e72913c2a1ba119c1f4c46c9d9210c680242"
+        },
+        {
+          "type_code": 8,
+          "description": "Short Local Name",
+          "value": "DW25CF"
+        }
+      ]
+    },
+    "operation_mode_data": {
+      "device_type": 0,
+      "uwb_mode": 2,
+      "fw_version": 1,
+      "accelerometer_enable": true,
+      "led_enable": true,
+      "fw_update_enable": false,
+      "reserved_01": true,
+      "initiator": false,
+      "low_power_mode": false,
+      "location_engine": true,
+      "reserved_02": 0,
+      "device_type_name": "Tag",
+      "uwb_mode_name": "Active",
+      "fw_version_name": "2"
+    },
+    "device_info_data": {
+      "node_id": 16053855300027995820,
+      "hw_version": 3737780266,
+      "fw1_version": 16973824,
+      "fw2_version": 16973825,
+      "fw1_checksum": 1025622101,
+      "fw2_checksum": 3588834073,
+      "bridge": false,
+      "unknown": 0
+    },
+    "network_id": 55563,
+    "location_data_mode_data": {
+      "location_data_mode": 2,
+      "location_data_mode_name": "Position and distances"
+    },
+    "location_data": {
+      "location_data_content": 2,
+      "location_data_content_name": "Position and distances",
+      "position_data": {
+        "x_position": 1217,
+        "y_position": -1081,
+        "z_position": 165,
+        "quality": 95
+      },
+      "distance_data": [
+        {
+          "node_id": 17667,
+          "distance": 1278,
+          "quality": 100
+        },
+        {
+          "node_id": 6059,
+          "distance": 1616,
+          "quality": 100
+        },
+        {
+          "node_id": 1041,
+          "distance": 1685,
+          "quality": 100
+        },
+        {
+          "node_id": 49438,
+          "distance": 1925,
+          "quality": 100
+        }
+      ]
+    },
+    "proxy_positions_data": null,
+    "anchor_list_data": [
+      49438,
+      1041,
+      17667,
+      6059
+    ],
+    "update_rate_data": {
+      "moving_update_rate": 100,
+      "stationary_update_rate": 100
+    }
+  },
+  "DW2AF3": {
+    "device_name": "DW2AF3",
+    "scan_data": {
+      "device_name": "DW2AF3",
+      "mac_address": "fc:92:79:72:6f:f2",
+      "address_type": "public",
+      "interface": 0,
+      "rssi": -66,
+      "connectable": true,
+      "advertising_data": [
+        {
+          "type_code": 1,
+          "description": "Flags",
+          "value": "06"
+        },
+        {
+          "type_code": 33,
+          "description": "128b Service Data",
+          "value": "e72913c2a1ba119c1f4c46c9d9210c688a0d"
+        },
+        {
+          "type_code": 8,
+          "description": "Short Local Name",
+          "value": "DW2AF3"
+        }
+      ]
+    },
+    "operation_mode_data": {
+      "device_type": 1,
+      "uwb_mode": 2,
+      "fw_version": 1,
+      "accelerometer_enable": true,
+      "led_enable": true,
+      "fw_update_enable": false,
+      "reserved_01": true,
+      "initiator": true,
+      "low_power_mode": false,
+      "location_engine": true,
+      "reserved_02": 0,
+      "device_type_name": "Anchor",
+      "uwb_mode_name": "Active",
+      "fw_version_name": "2"
+    },
+    "device_info_data": {
+      "node_id": 16053922970026050577,
+      "hw_version": 3737780266,
+      "fw1_version": 16973824,
+      "fw2_version": 16973825,
+      "fw1_checksum": 1025622101,
+      "fw2_checksum": 3588834073,
+      "bridge": false,
+      "unknown": 0
+    },
+    "network_id": 55563,
+    "location_data_mode_data": {
+      "location_data_mode": 2,
+      "location_data_mode_name": "Position and distances"
+    },
+    "location_data": {
+      "location_data_content": 0,
+      "location_data_content_name": "Position only",
+      "position_data": {
+        "x_position": 0,
+        "y_position": 0,
+        "z_position": 0,
+        "quality": 100
+      },
+      "distance_data": null
+    },
+    "proxy_positions_data": null,
+    "anchor_list_data": [
+      1041,
+      17667,
+      49438,
+      6059
+    ],
+    "update_rate_data": {
+      "moving_update_rate": 100,
+      "stationary_update_rate": 10000
+    }
+  },
+  "DW29F1": {
+    "device_name": "DW29F1",
+    "scan_data": {
+      "device_name": "DW29F1",
+      "mac_address": "cf:c0:cd:e6:83:13",
+      "address_type": "public",
+      "interface": 0,
+      "rssi": -64,
+      "connectable": true,
+      "advertising_data": [
+        {
+          "type_code": 1,
+          "description": "Flags",
+          "value": "06"
+        },
+        {
+          "type_code": 33,
+          "description": "128b Service Data",
+          "value": "e72913c2a1ba119c1f4c46c9d9210c68822a"
+        },
+        {
+          "type_code": 8,
+          "description": "Short Local Name",
+          "value": "DW29F1"
+        }
+      ]
+    },
+    "operation_mode_data": {
+      "device_type": 1,
+      "uwb_mode": 2,
+      "fw_version": 1,
+      "accelerometer_enable": true,
+      "led_enable": true,
+      "fw_update_enable": false,
+      "reserved_01": true,
+      "initiator": false,
+      "low_power_mode": false,
+      "location_engine": true,
+      "reserved_02": 0,
+      "device_type_name": "Anchor",
+      "uwb_mode_name": "Active",
+      "fw_version_name": "2"
+    },
+    "device_info_data": {
+      "node_id": 16053775142603571486,
+      "hw_version": 3737780266,
+      "fw1_version": 16973824,
+      "fw2_version": 16973825,
+      "fw1_checksum": 1025622101,
+      "fw2_checksum": 3588834073,
+      "bridge": false,
+      "unknown": 0
+    },
+    "network_id": 55563,
+    "location_data_mode_data": {
+      "location_data_mode": 2,
+      "location_data_mode_name": "Position and distances"
+    },
+    "location_data": {
+      "location_data_content": 0,
+      "location_data_content_name": "Position only",
+      "position_data": {
+        "x_position": 0,
+        "y_position": 340,
+        "z_position": 450,
+        "quality": 100
+      },
+      "distance_data": null
+    },
+    "proxy_positions_data": null,
+    "anchor_list_data": [
+      1041,
+      17667,
+      49438,
+      6059
+    ],
+    "update_rate_data": {
+      "moving_update_rate": 100,
+      "stationary_update_rate": 100
+    }
+  }
+}
