@@ -9,8 +9,8 @@ while True:
     try:
         scan_data = decawave_ble.get_data(decawave_devices[TAG_NAME])
         position = scan_data['location_data']['position_data']
-        vector = get_vector(position['x_position'],position['y_position'])
-        print('Dist: %2fm Angle: %2f rad ', (vector['dist'], vector['angle']))
+        vector = get_vector(position['x_position'], position['y_position'])
+        print('Dist: %2fm Angle: %2f radians ', (vector['dist'], vector['angle']))
         time.sleep(0.1)
     except:
         print("Error")
