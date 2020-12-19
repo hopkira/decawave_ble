@@ -4,10 +4,6 @@ import math
 
 TAG_NAME = 'DW25CF'
 
-print("Scanning for decawave devices...")
-decawave_devices = decawave_ble.scan_for_decawave_devices()
-print(str(len(decawave_devices)) + " devices found.")
-
 def get_vector(x,y):
     dist = get_dist(x,y)
     angle = get_angle(x,y)
@@ -18,6 +14,18 @@ def get_dist(x,y):
 
 def get_angle(x,y):
     return math.atan2(y,x)
+
+print("Scanning for Decawave devices...")
+
+while True:
+    decawave_devices = decawave_ble.scan_for_decawave_devices()
+    print(str(len(decawave_devices)) + " devices found.")
+    if TAG_NAME in decawave_devices:
+        print("Target tag detected... listening for position.")
+        break
+    else:
+        print("Tag not found... will retry in 10 seconds...")
+        time.sleep(10)
 
 while True:
     try:
