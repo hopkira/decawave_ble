@@ -31,9 +31,10 @@ while True:
     try:
         scan_data = decawave_ble.get_data(decawave_devices[TAG_NAME])
         position = scan_data['location_data']['position_data']
+        print(position)
         if position:
             vector = get_vector(position['x_position'], position['y_position'])
-            print('Dist: %.2fm Angle: %.2f radians ' % (vector['dist'], vector['angle']))
+            # print('Dist: %.2fm Angle: %.2f radians ' % (vector['dist'], vector['angle']))
         time.sleep(0.1)
     except:
         print("ERROR: tag cannot be found")
