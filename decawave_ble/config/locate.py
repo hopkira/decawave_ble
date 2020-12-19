@@ -1,9 +1,12 @@
 import decawave_ble
 import time
 import math
+
 TAG_NAME = 'DW25CF'
 
+print"Scanning for decawave devices..."
 decawave_devices = decawave_ble.scan_for_decawave_devices()
+print(str(len(decawave_devices)) + " devices found.")
 
 def get_vector(x,y):
     dist = get_dist(x,y)
