@@ -11,7 +11,7 @@ def get_vector(x,y):
     return dict(dist = dist, angle = angle)
 
 def get_dist(x,y):
-    return math.sqrt((x ** 2) + (y ** 2))
+    return math.sqrt((x ** 2) + (y ** 2)) / 1000
 
 def get_angle(x,y):
     return math.atan2(y,x)
@@ -24,4 +24,4 @@ while True:
     except:
         position = dict(x_postion = 0, y_position = 0)
     vector = get_vector(position['x_position'], position['y_position'])
-    print('Dist: %2fm Angle: %2f radians ', (vector['dist'], vector['angle']))
+    print('Dist: %.2fm Angle: %.2f radians ' % (vector['dist'], vector['angle']))
